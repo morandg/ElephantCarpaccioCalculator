@@ -4,7 +4,7 @@
 
 using namespace elephant_calculator;
 
-TEST(Calculator, CalculateEmptyStringReturnsEmptyString)
+TEST(Calculator, CalculateEmptyStringReturnsEmptyResult)
 {
-    EXPECT_EQ("", Calculator::calculate(""));
+    EXPECT_EQ("", Calculator::calculate("").asString());
 }

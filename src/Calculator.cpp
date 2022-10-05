@@ -2,9 +2,9 @@
 
 namespace elephant_calculator {
 
-std::string Calculator::calculate(const std::string& input)
+Result Calculator::calculate(const std::string& input)
 {
-    return "";
+    return {};
 }
 
 }

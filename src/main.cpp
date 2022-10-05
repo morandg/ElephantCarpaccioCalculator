@@ -15,7 +15,8 @@ int main(int argc, char* argv[])
     }
 
     std::string input = argv[1];
-    std::cout << input << " = " << elephant_calculator::Calculator::calculate(input) << "\n";
+    auto result = elephant_calculator::Calculator::calculate(input);
+    std::cout << input << " = " << result.asString() << "\n";
 
     return 0;
 }

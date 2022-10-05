@@ -1,4 +1,5 @@
 set(CORE_LIB_SOURCES
+        Result.cpp
         Calculator.cpp)
 
 add_library(${APP_CORE_LIB} STATIC ${CORE_LIB_SOURCES})
